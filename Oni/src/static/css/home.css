@@ -1,0 +1,75 @@
+.banner {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.nav_button {
+    color: black;
+    border: none;
+    background-image: none;
+    background-color: white;
+    font-size: 25px;
+}
+
+.icon {
+    height: 18px;
+    width: 18px;
+}
+
+.nav_button:hover {
+    cursor: pointer;
+}
+
+.home_button {
+    text-align: center;
+    border: none;
+    background-image: none;
+    background-color: white;
+    font-size: 50px;
+}
+
+.home_button:hover {
+    cursor: pointer;
+}
+
+.category_button {
+    color: black;
+    border: none;
+    background-image: none;
+    background-color: white;
+    font-size: 25px;
+}
+
+.category_button:hover {
+    cursor: pointer;
+}
+
+.bio {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.wrap {
+    display: flex;
+    gap: 100px;
+}
+
+.wrap_child {
+    display: flex;
+    gap: 25px;
+}
+
+.product_images {
+    text-align: justify;
+    width: 50%;
+    height: 50%;
+}
+
+.product_images img {
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <title>Yo Mama</title>
+    <link rel="stylesheet" type="text/css" href=" {% static '/css/home.css' %} ">
+</head>
+
+<style>
+</style>
+<script src=""></script>
+<body>
+
+<div class="banner">
+    <button class="nav_button"> <img src="{% static 'images/hamburger.png' %}" class= "icon" alt="Image"/> 
+        Menu </button>
+    <button class="nav_button"> Search </button>
+    <button class="home_button"> Oni Moto </button>
+    <button class="nav_button"> Account </button>
+    <button class="nav_button"> Shopping Cart </button>
+</div>
+
+<hr>
+
+<div class="bio">
+    <em><strong> Oni Moto <strong></em>
+    <br> <br>
+    <em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum blandit consectetur. Vivamus commodo ex eu lacus porttitor mollis. 
+    Curabitur nec dignissim ante. Nunc dictum mattis nisi sit amet eleifend. Mauris quis neque porta, 
+    blandit libero sed, suscipit lectus. 
+    </em>
+</div>
+
+<div class="wrap">
+
+    <ul class="category">
+        <h1>Categories</h1>
+        <li><button class="category_button"> Frames </button> </li>
+        <li><button class="category_button"> Wheels </button> </li>
+        <li><button class="category_button"> Signals </button> </li>
+        <li><button class="category_button"> Seats </button> </li>
+    </ul>
+
+    <div class="wrap_child">
+        <img src="{% static 'images/bike1.png' %}" class= "product_images" alt="Image"/> 
+            <p> Some text </p>
+        <img src="{% static 'images/bike2.png' %}" class= "product_images" alt="image"/>
+            <p> Some text </p>
+    </div>
+
+</div>
+
+</body>
+</html>
