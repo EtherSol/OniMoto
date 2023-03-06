@@ -14,41 +14,59 @@
 <script src=""></script>
 <body>
 
-<div class="banner">
-    <button class="nav_button"> <img src="{% static 'images/hamburger.png' %}" class= "icon" alt="Image"/> 
-        Menu </button>
-    <button class="nav_button"> Search </button>
-    <button class="home_button"> Oni Moto </button>
-    <button class="nav_button"> Account </button>
-    <button class="nav_button"> Shopping Cart </button>
-</div>
 
-<hr>
+<div class="background"> <!-- Background Image in the back -->
+    <img src="{% static 'images/super73.png' %}" class= "background-image" alt="Image"/> 
+    <div class="overlay">
 
-<div class="bio">
-    <em><strong> Oni Moto <strong></em>
-    <br> <br>
-    <em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum blandit consectetur. Vivamus commodo ex eu lacus porttitor mollis. 
-    Curabitur nec dignissim ante. Nunc dictum mattis nisi sit amet eleifend. Mauris quis neque porta, 
-    blandit libero sed, suscipit lectus. 
-    </em>
-</div>
 
-<div class="wrap">
+        <div id="banner"> <!-- Nav Bar -->
 
-    <ul class="category">
-        <h1>Categories</h1>
-        <li><button class="category_button"> Frames </button> </li>
-        <li><button class="category_button"> Wheels </button> </li>
-        <li><button class="category_button"> Signals </button> </li>
-        <li><button class="category_button"> Seats </button> </li>
-    </ul>
+            <div class= "banner_left">
+                <button class="nav_button"> <img src="{% static 'images/hamburger.png' %}" class= "icon" alt="Image"/> 
+                    Menu </button>
+                <button class="nav_button"> <img src="{% static 'images/search.png' %}" height= 20px width= 20px alt="Image"/> </button>
+            </div>
+            
+            <div class= "banner_middle">
+                <button class="home_button"> Oni Moto </button>
+            </div>
 
-    <div class="wrap_child">
-        <img src="{% static 'images/bike1.png' %}" class= "product_images" alt="Image"/> 
-            <p> Some text </p>
-        <img src="{% static 'images/bike2.png' %}" class= "product_images" alt="image"/>
-            <p> Some text </p>
+            <div class= "banner_right">
+                <button class="nav_button"> <img src="{% static 'images/personal.png' %}" height= 25px width= 25px alt="Image"/> </button>
+                <button class="nav_button"> <img src="{% static 'images/shopping.png' %}" height= 25px width= 25px alt="Image"/> </button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="bio"> <!-- Bio Section -->
+            <em><strong> Oni Moto <strong></em>
+            <br> <br>
+            <em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum blandit consectetur. Vivamus commodo ex eu lacus porttitor mollis. 
+            Curabitur nec dignissim ante. Nunc dictum mattis nisi sit amet eleifend. Mauris quis neque porta, 
+            blandit libero sed, suscipit lectus. 
+            </em>
+        </div>
+
+        <div class="wrap"> <!-- Wraps category and products -->
+
+            <ul class="category">
+                <h1>Categories</h1>
+                <li><button class="category_button"> Frames </button> </li>
+                <li><button class="category_button"> Wheels </button> </li>
+                <li><button class="category_button"> Signals </button> </li>
+                <li><button class="category_button"> Seats </button> </li>
+            </ul>
+
+            <div class="wrap_child">
+                <img src="{% static 'images/bike1.png' %}" class= "product_images" alt="Image"/> 
+                    <p> Some text </p>
+                <img src="{% static 'images/bike2.png' %}" class= "product_images" alt="image"/>
+                    <p> Some text </p>
+            </div>
+        </div>
+
     </div>
 
 </div>

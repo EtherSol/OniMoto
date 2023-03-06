@@ -67,8 +67,8 @@ TEMPLATES = [
     },
 ]
 
-print(os.path.join(BASE_DIR, 'Oni/src/static'), "123")
-print("hello world")
+
+print("✨✨✨ Hello World! Have an Awesome Day Kyle! ✨✨✨")
 
 WSGI_APPLICATION = 'Oni.wsgi.application'
 
