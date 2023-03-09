@@ -60,6 +60,42 @@
     opacity: 0;
 }
 
+/* Working code */
+.mobile-nav {
+    font-size: 8px;
+    opacity: 0;
+    display: fixed;
+    top: 0;
+    width: 15%;
+    min-height: 25vh;
+    display: grid;
+    z-index: 98;
+    background-color: #0b0b1351;
+    padding-top: 0px;
+    transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+    opacity: 100;
+    left: 100;
+}
+
+.mobile-nav a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 16px;
+    text-align: center;
+    padding: 12px 16px;
+    background-color: none;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.mobile-nav a:hover {
+    background-color: rgb(161, 52, 52);
+}
+
 #banner {
     margin: -10px;
     padding-left: 10px;
