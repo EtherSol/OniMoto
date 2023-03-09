@@ -14,7 +14,7 @@
 
 <style>
 </style>
-<script src=""></script>
+<script src="./Oni/src/static/js/main.js"></script>
 <body>
 
 
@@ -26,7 +26,15 @@
         <div id="banner"> <!-- Nav Bar -->
 
             <div class= "banner_left">
-                <button class="nav_button"><img src="{% static 'images/hamburger.png' %}" class= "icon" alt="Image"/>Menu</button>
+                {% comment %} Hamburger {% endcomment %}
+
+                <button class="hamburger">
+                    <div class="bar">
+
+                    </div>
+                </button>
+
+
                 <button class="nav_button"><img src="{% static 'images/search.png' %}" height= 20px width= 20px alt="Image"/> </button>
             </div>
             
@@ -74,6 +82,7 @@
             </div>
         </div>
 </div>
+
 
 
 
